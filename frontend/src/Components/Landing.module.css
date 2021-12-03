@@ -1,0 +1,25 @@
+.landing-wrapper {
+    height: 92vh;
+    background-image: url('../assets/landingImage.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.down-arrow {
+    font-size: 4rem;
+    color: #0092CC;
+    transition: all 0.3s ease-in-out;
+}
+
+.down-arrow:hover {
+    transform: scale(0.8);
+    color: #016d97;
+    color: salmon;
+    cursor: pointer;
+}

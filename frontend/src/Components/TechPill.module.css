@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.techName {
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.skill,
+.learning,
+.interest {
+    width: 170px;
+    padding: 10px;
+    margin: 15px 30px;
+    border-radius: 12px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.skill:hover,
+.learning:hover,
+.interest:hover {
+    transform: scale(0.9);
+    cursor:default;
+}
+
+.skill {
+    background-color: #0a9782;
+}
+
+.learning {
+    background-color: #E68E0B;
+}
+
+.interest {
+    background-color: #0092CC;
+}
+
+@media screen and (max-width:620px) {
+    .techName {
+        font-size: 1.2rem;
+    }
+
+    .skill,
+    .learning,
+    .interest {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width:559px) {
+    .techName {
+        font-size: 1rem;
+    }
+
+    .skill,
+    .learning,
+    .interest {
+        width: 100px;
+    }
+}

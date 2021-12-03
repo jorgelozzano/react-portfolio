@@ -1,0 +1,30 @@
+.project-card-wrapper {
+    margin:0 auto;
+    background-color: rgba(233, 233, 233, 0.822);
+    background-clip: padding-box;
+    color: #000;
+    width: 30rem;
+    border-radius: 12px;
+}
+
+.image-wrapper {
+    margin: auto;
+    width: fit-content;
+}
+
+.project-img {
+    border-radius: 12px;
+    height: 15rem;
+    width: 30rem;
+}
+.text-wrapper{
+    margin: 1rem 0;
+}
+.text-wrapper h4 {
+    text-align: center;
+}
+
+.text-wrapper p {
+    margin: 1rem;
+    text-align: justify;
+}

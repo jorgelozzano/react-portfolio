@@ -1,0 +1,50 @@
+.footer-wrapper {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-wrapper .footer-text p {
+    color: #E8E8E8;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.footer-wrapper .footer-icons ul {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.footer-icons a {
+    text-decoration: none;
+    font-size: 30px;
+    transition: all 0.1s ease-in-out;
+    margin: 0 0.8rem;
+}
+
+/* .footer-icons a:hover {
+    font-size: 27px;
+} */
+
+.footer-wrapper .footer-icons .instagramBtn {
+    color: #E1306C;
+
+}
+
+.footer-wrapper .footer-icons .linkedinBtn {
+    color: #2867B2;
+}
+.footer-wrapper .footer-icons .githubBtn {
+    color: #FFF;
+}
+
+.footer-wrapper .footer-icons .gmailBtn {
+    color: #ff4747;
+}

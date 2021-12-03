@@ -1,0 +1,42 @@
+.skills-wrapper {
+    background-color: #f8f9fa;
+}
+
+.skills-wrapper .skills-title {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.mySkills-wrapper ul,
+.learning-wrapper ul,
+.interests-wrapper ul {
+    padding: 0;
+    margin: 0 5rem;
+    margin-bottom: 4rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.interests-wrapper ul{
+    margin-bottom: 0;
+}
+
+@media screen and (max-width:559px) {
+
+    .skills-wrapper .skills-title{
+        font-size: 2rem;
+    margin-bottom: 1rem;
+    }
+    .mySkills-wrapper ul,
+    .learning-wrapper ul,
+    .interests-wrapper ul {
+        margin: auto;
+        margin-bottom: 4rem;
+    }
+    .interests-wrapper ul{
+        margin-bottom: 0;
+    }
+}

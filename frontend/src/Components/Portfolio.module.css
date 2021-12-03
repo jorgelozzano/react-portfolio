@@ -1,0 +1,15 @@
+.portfolio-wrapper{
+    background-color: #f8f9fa;
+}
+.portfolio-title {
+    text-align: center;
+    padding: 3rem 0;
+}
+.project-grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 3rem 0;
+    padding: 0 5rem;
+    padding-bottom: 3rem;
+}

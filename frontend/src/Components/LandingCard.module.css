@@ -1,0 +1,22 @@
+.Card{
+    width: 18rem;
+    border-radius: 10px;
+    background-color: rgba(51, 51, 51, 0.9);
+    background-clip: padding-box;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+    padding: 20px 0;
+}
+.Card:hover{
+    transform: scale(1.03);
+}
+.cardImg{
+    height: 15rem;
+    width: 11rem;
+    margin:10px auto;
+    border-radius: 12px;
+}
+.cardTitle{
+    font-size: 1.8rem;
+    color:#0092CC;
+}
