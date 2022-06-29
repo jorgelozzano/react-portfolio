@@ -4,21 +4,23 @@
     font-family: 'Poppins', sans-serif;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .text-block {
-    background-color: #3F3F40;
     background-color: rgb(0, 146, 204);
     color: #FFF;
     padding: 2rem;
-    text-align: justify;
+    margin: 0 4rem;
     border-radius: 12px;
-    width: 22rem;
+    width: 30vw;
     height: 13rem;
     -webkit-box-shadow: 0px 5px 14px -3px #000000;
     box-shadow: 0px 5px 14px -3px #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .software-me-wrapper {
@@ -34,13 +36,11 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgb(0, 146, 204);
     background-color: rgb(26, 141, 187);
     width: fit-content;
     margin: auto 3rem;
     padding: 2rem;
     border-radius: 12px;
-    color: #000;
     color: #FFF;
     -webkit-box-shadow: 0px 5px 14px -3px #000000;
     box-shadow: 0px 5px 14px -3px #000000;
@@ -53,9 +53,36 @@
     margin: 2rem;
 }
 
-.me-img {
-    border: 0.5px solid rgba(133, 133, 133, 0.521);
+.work-experience{
+    width: 80vw;
+    margin: auto;
+    padding: 1rem 0;
+}
+
+.work-experience .works-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.work-experience .works-wrapper *{
     border-radius: 12px;
-    height: 18rem;
-    width: 13rem;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.work-experience .works-wrapper .work-1{
+    padding: 1rem;
+    min-height: 20rem;
+    background: #005AA7;
+    background: -webkit-linear-gradient(to bottom, #e1dfca, #005AA7);
+    background: linear-gradient(to bottom, #e1dfca, #005AA7); 
+    
+}
+.work-experience .works-wrapper .work-2{
+    min-height: 20rem;
+    padding: 1rem;
+    background: linear-gradient(310deg, rgba(242,226,3,1) 0%, rgba(240,156,34,1) 50%, rgba(255,0,136,1) 100%);
 }

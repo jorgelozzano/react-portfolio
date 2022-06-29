@@ -1,8 +1,7 @@
 import React from "react";
 import styles from "./LandingCard.module.css";
 import Card from "react-bootstrap/Card";
-import me from "../assets/meBW.jpg";
-import { Container, Row, Col } from "react-bootstrap";
+import me from "../assets/me.jpeg";
 
 const LandingCard = () => {
   return (

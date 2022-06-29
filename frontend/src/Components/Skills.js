@@ -18,15 +18,18 @@ const Skills = () => {
                     <li><TechPill tech="MySQL" type="skill" /></li>
                     <li><TechPill tech="SCRUM" type="skill" /></li>
                     <li><TechPill tech="Bootstrap" type="skill" /></li>
+                    <li><TechPill tech="Express.js" type="skill" /></li>
+                    <li><TechPill tech="Node" type="skill" /></li>
                 </ul>
             </div>
             <div className={styles['learning-wrapper']}>
                 <h3 className={styles['skills-title']}>Currently learning</h3>
                 <ul>
-                    <li><TechPill tech="Express.js" type="learning" /></li>
+                    
                     <li><TechPill tech="MongoDB" type="learning" /></li>
-                    <li><TechPill tech="Node" type="learning" /></li>
                     <li><TechPill tech="Flutter" type="learning" /></li>
+                    <li><TechPill tech="Angular" type="learning" /></li>
+                    <li><TechPill tech="AWS" type="learning" /></li>
                 </ul>
             </div>
             <div className={styles['interests-wrapper']}>
@@ -34,10 +37,9 @@ const Skills = () => {
                 <ul>
                     <li><TechPill tech="ASP .NET" type="interest" /></li>
                     <li><TechPill tech="Django" type="interest" /></li>
-                    <li><TechPill tech="Angular" type="interest" /></li>
                     <li><TechPill tech="Azure" type="interest" /></li>
-                    <li><TechPill tech="AWS" type="interest" /></li>
                     <li><TechPill tech="DevOps" type="interest" /></li>
+                    <li><TechPill tech="SpringBoot" type="interest" /></li>
                 </ul>
             </div>
         </div>

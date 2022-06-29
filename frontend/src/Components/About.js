@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./About.module.css";
-import me from "../assets/me2.jpeg";
 
 const About = () => {
   return (
@@ -31,9 +30,29 @@ const About = () => {
             and friends, doing contact sports, learning new languages, cooking
             and being a geek at cars.
           </p>
-          <div className={styles["img-block-wrapper"]}>
-            <img className={styles["me-img"]} src={me} alt="me" />
-          </div>
+        </div>
+      </div>
+      <div className={styles['work-experience']}>
+      <h1 className="text-center my-5">Work experience</h1>
+      <div className={styles['works-wrapper']}>
+        <div className={styles['work-1']}>
+          <h4>Front-End Intern</h4>
+          <h6>Treebes - November 2020 to July 2021</h6>
+          <br />
+          <p className="text-justify px-5">In this job, I used to develop the designs given by the design department in
+             order to create the best web page to the client that asked for it. I also worked maintaining stable this 
+             created web pages and update them depending on the client instructions. </p>
+          <p className="text-center px-5">Tech Stack: JavaScript, Bootstrap, HTML5, CSS3.</p>
+        </div>
+        <div className={styles['work-2']}>
+          <h4>Software Developer Intern</h4>
+          <h6>AstraZeneca - May 2022 (current job)</h6>
+          <br />
+          <p className="text-justify px-5">In AstraZeneca I first started as a Front-End development intern but 
+          progressively I began to work on back-end projects to. Nowadays I work in projects on the Front-End side and 
+          the Back-End side. This workflow allows me to gain experience and practice on both end's.</p>
+          <p className="text-center px-5">Tech Stack: TypeScript, Angular, CSS3, HTML5, Express.js, Node.js, Jasmine.</p>
+        </div>
         </div>
       </div>
     </div>
